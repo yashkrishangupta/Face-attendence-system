@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Flask
+instance/
+.webassets-cache
+
+# Face Recognition Models
+face_encodings.pkl
+face_model.yml
+*.h5
+
+# DeepFace weights
+.deepface/
+
+# Attendance Records (optional - remove if you want to track them)
+attendance_records/*.json
+!attendance_records/README.md
+
+# Student Photos (optional - remove if you want to track them)
+student_photos/*/
+!student_photos/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
